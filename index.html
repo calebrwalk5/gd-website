@@ -5,14 +5,17 @@
   <link rel="stylesheet" href="styles.css">
     <title>Great Depression Project</title>
     <style>
+    @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
     body {
-
+      background-color: #292929;
     }
         .wrapper{
+          display: flex;
             position: relative;
             display: grid;
-            grid-template-columns: 65% 35%;
+            grid-template-columns: 15% 75%;
             height: 75%;
+            grid-gap: 3%;
         }
         .headcontainer{
             position: relative;
@@ -28,8 +31,26 @@
         .main {
           padding: 10px;
           border: 10px;
-          border-color: #f1f1f1;
+          background: linear-gradient(to right, red, orange);
+          border-radius: 10px;
+          padding: 2%;
         }
+          .title {
+            font-size: 3rem;
+            font-family: 'Rubik', sans-serif;
+            color: white;
+            padding: 10px;
+            position: relative;
+            text-align: center;
+          }
+        .sidebar {
+          border-radius: 10px;
+          background: linear-gradient(to right, red, orange);
+          padding: 2%;
+        }
+}
+
+
     </style>
 <body>
 <div class="headcontainer">
@@ -43,11 +64,14 @@
   </ul>
 </div>
 </div>
+<div class="title">The Great Depression</div>
 </div>
+<p></p>
 <div class="wrapper">
+<div class="sidebar">
+  </div>
 <div class="main">
-  epic
-</div>
+  </div>
 </div>
 </body>
 </head>
