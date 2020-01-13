@@ -5,8 +5,14 @@
 		@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 		body {
 		font-family: 'Rubik';
-		background: linear-gradient(to right, red, orange);
+		background: linear-gradient(to bottom, gray, lightgray);
 		}
+		.wrapper{
+    	position: relative;
+    	display:grid;
+    	grid-template-columns: 20% 60% 20%;
+    	height: 100%;
+    	}
 		.main {
 		color: white;
 		background: #555;
@@ -16,12 +22,18 @@
 		border: 2px solid black;
 		}
 		h1 {
-		
+		font-family: 'Rubik';
+		text-align: center;
 		}
 		</style
-        <body>
+		<body>
+			<div class="wrapper">
+				<div class="left">
+					</div>
 		<div class="main">
-            <h1>current events</h1>
+			<h1 style="font-size:4vw;">Current Events</h1>
+			<br>Current events go here
+			</div>
 			</div>
         </body>
     </head>
