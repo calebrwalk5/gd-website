@@ -2,18 +2,25 @@
     <head>
         <title>Current Events</title>
 		<style>
-		@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 		body {
-		font-family: 'Rubik';
-		background: linear-gradient(to bottom, gray, lightgray);
+		font-size: 1vw;
+		font-family: 'Courier New', Courier, monospace;
+		background: lightgray;
+		}
+		.mainimg {
+			grid-template-columns: 40% 30% 30%;
+			display: grid;
+			width: 100%;
+			grid-gap: 1%;
+			height: 40%;
 		}
 		.wrapper{
     	position: relative;
-		width: 90%;
+		width: 95%;
     	display: grid;
-    	grid-template-columns: 1% 30% 66% 1%;
+    	grid-template-columns: 1% 30% 68% 1%;
     	height: 100%;
-		grid-gap: 3%;
+		grid-gap: 1%;
     	}
 		.main {
 		color: white;
@@ -23,9 +30,13 @@
 		border: 2px solid black;
 		}
 		h1 {
-		font-family: 'Rubik';
+		font-family: 'Courier New', Courier, monospace;
 		text-align: center;
-		font-size: 4vw;
+		font-size: 3vw;
+		}
+		h2 {
+		text-align: center;
+		font-size: 1.5vw;
 		}
 		.image1 {
 		max-width: 100%;
@@ -45,8 +56,8 @@
 		.header {
 		position: static;
 		width: 100%;
-		height: 70px;
-		background: lightgray;
+		height: 10%;
+		background-color: gray;
 		border-radius: 10px;
 		}
 		</style>
@@ -56,17 +67,24 @@
 		}
 		</script>
 		<body>
-		<div class="header"><h1>Header</h1></div>
+		<div class="header"><h1>The S&C News</h1></div>
+		<p>
 			<div class="wrapper">
 				<div class="left">
 				<button onclick="goBack()">Go Back</button>
 					</div>
 					<div class="column">
+						<h2>United States -- Wall Street Crash</h2>
+						The Wall Street Crash of 1929, is the stock-market crash that occurred starts on October 28th and started the period of The Great Depression in the United States, starting a world-wide economic crisis and lasting till the mid 1930's. Over 4 million people were unemployed because of the crash in 1929.
+						<br><center><img src="../images/1929-Stock-Market-Crash-Daily-Chart.jpg" alt="Stock Market Crash Chart" class="image1"></center>
 					</div>
 		<div class="main">
-			<h1>Current Events</h1>
-			<br>The Stock Market Crashed in October of 1929.
-			<br><center><img src="../images/1929-Stock-Market-Crash-Daily-Chart.jpg" alt="Stock Market Crash Chart" class="image1"></center>
+			<h1>MASS UNEMPLOYMENT IN UNITED STATES</h1>
+			<br>Many Americans were forced to buy things on credit then fell into debt, and the number of foreclosures and repossessions climbed steadily. The global adherence to the gold standard, which connected nations around the world in a fixed currency exchange, helped spread economic problems from the United States throughout the world, especially Europe.
+			<br>When people lost their jobs they couldn't buy anything. Then the businesses don't make money and have to lay off thier employees, further worsening people's financial issues.
+			<p><div class="mainimg"><div><img src="../images/US_Unemployment_1910-1960.jpg" alt="Great-Depression-Unemployment"></div>
+				<div><img src="../images/sad_kid.jpeg" alt="sad-great-depression-kid" style="height: 50%;"></div>
+			</div>
 			</div>
 			<div class="left"></div>
 			</div>
