@@ -25,12 +25,12 @@
 }
 #cssmenu {
   width: auto;
-  border-bottom: 3px solid orange;
+  border-bottom: 3px solid #2c2f33;
   font-family: Raleway, sans-serif;
   line-height: 1;
 }
 #cssmenu ul {
-  background:#00091A;
+  background: #23272a;
 }
 #cssmenu > ul > li {
   float: left;
@@ -93,5 +93,5 @@
 #cssmenu > ul > li.active > a:after,
 #cssmenu > ul > li:hover > a:after,
 #cssmenu > ul > li > a:hover:after {
-  background: linear-gradient(#F9293F, orange);
+  background: #2c2f33;
 }
