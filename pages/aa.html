@@ -1,19 +1,35 @@
 <html>
     <head>
         <link rel="stylesheet" href="aastyles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
         body {
-        background-color: #00091A;
+        background-color: #23272a;
         font-size: larger;
+        }
+        .header {
+            background-color: #7289da;
+            color: white;
+            text-align: center;
+            font-size: 3vw;
         }
         .wrapper {
           display: flex;
             position: relative;
             display: grid;
-            grid-template-columns: 15% 75%;
+            grid-template-columns: 10% 80% 10%;
             height: 75%;
             grid-gap: 3%;
-        }        
+        }      
+        .main {
+            font-size: 1.5vw;
+            color: white;
+            border: 2px solid #2c2f33;
+        }  
+        .side {
+            font-size: 2vw;
+            color: #7289da;
+        }
         </style>
         <body>
             <div id='cssmenu'>
@@ -25,6 +41,16 @@
                     <li class='active'><a href='./pages/aa.html'>Alphabet Agencies</a></li>
                     <li><a href='https://github.com/calebrwalk5/gd-website'>GitHub Repository</a></li>
                 </ul>
+              </div>
+              <p></p>
+              <div class="header">
+                ROOSEVELT'S ALPHABET AGENCIES
+              </div>
+              <p></p>
+              <div class="wrapper">
+                  <div class="side">JOIN TODAY!</div>
+                  <div class="main"></div>
+                  <div></div>
               </div>
         </body>
     </head>
