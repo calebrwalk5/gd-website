@@ -1,113 +1,57 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-    <title>Great Depression Project</title>
-    <style>
-    @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-    body {
-      background-color: #00091A;
-      font-size: larger;
-    }
+    <head>
+        <link rel="stylesheet" href="aastyles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {
+        background-color: #23272a;
+        font-size: larger;
+        }
+        .header {
+            background-color: #7289da;
+            color: white;
+            text-align: center;
+            font-size: 3vw;
+        }
         .wrapper {
           display: flex;
             position: relative;
             display: grid;
-            grid-template-columns: 15% 75%;
+            grid-template-columns: 10% 80% 10%;
             height: 75%;
             grid-gap: 3%;
-        }
-        .headcontainer{
-            position: relative;
-            display: grid;
-            grid-template-columns: 65% 35%;
-            height: 25%;
-        }
-        .header {
-            padding: 10px 16px;
-            color: #f1f1f1;
-            background: #555;
-        }
+        }      
         .main {
-          background: linear-gradient(#F9293F, orange);
-          border-radius: 10px;
-          font-family: 'Rubik', sans-serif;
-        }
-          .title {
-            font-size: 2.5vw;
-            font-family: 'Rubik', sans-serif;
+            font-size: 1.5vw;
             color: white;
-            padding: 2%;
-            position: relative;
-            text-align: center;
-          }
-        .sidebar {
-          position: relative;
-          border-radius: 10px;
-          background: linear-gradient(#F9293F, orange);
-          font-family: 'Rubik', sans-serif;
+            border: 2px solid #2c2f33;
+        }  
+        .side {
+            font-size: 2vw;
+            color: #7289da;
         }
-        h1 {
-          font-size: 1.5vw;
-          font-family: 'Rubik', sans-serif;
-          text-align: center;
-          position: relative;
-          word-wrap: break-word;
-        }
-        sub {
-          font-size: 20%;
-        }
-        .footer {
-          position: fixed;
-          width: 100%;
-          background: linear-gradient(#F9293F, orange);
-          color: black;
-          text-align: center;
-          bottom: 0;
-          height: 2%;
-          border-top-left-radius: 10px;
-          border-top-right-radius: 10px;
-          font-size: .7vw;
-        }
-    </style>
-<body>
-  <div id="main">
-<div class="headcontainer">
-  <div id="header">
-  <div id='cssmenu'>
-  <ul>
-      <li class='active'><a href='https://calebrwalk5.github.io/gd-website'>FRONT PAGE NEWS</a></li>
-      <li><a href='./pages/currentevents.html'>CURRENT EVENTS</a></li>
-      <li><a href='./pages/diary.html'>Diary</a></li>
-      <li><a href='./pages/moviereview.html'>Grapes of Wrath Movie Review</a></li>
-      <li><a href='./pages/aa.html'>Alphabet Agencies</a></li>
-      <li><a href='https://github.com/calebrwalk5/gd-website'>GitHub Repository</a></li>
-  </ul>
-</div>
-</div>
-<div class="title">The Great Depression</div>
-</div>
-<p></p>
-<div class="wrapper">
-<div class="sidebar">
-  <strong><h1>UNEMPLOYMENT<br>RISING</h1></strong>
-<p>
-  American unemployment rate has risen 607%. Industrial production is down 46%. Wholesale prices have dropped by 32%. Foreign trade has fallen 70%.
-</p>
-  </div>
-<div class="main">
-  <h1>Stock Market Plummets, Casuing Mass Hysteria and Unemployment</h1>
-  <p>
-<br>In October of 1929 the stock market crashed, wiping out millions of investments on Wall Street. October 29 is known as "Black Tuseday" because that's when everyone realized that they needed to sell their shares to not lose money. Many people lost their jobs due to them having no money, the employers having no money, and people were laid off from their jobs, further worsening the economy. Many Americans wer forced to either go into debt or feed themselves and their family. By 1930, 4 million Americans were looking for a job but couldn't find them. That number rose to 6 million in 1931.
-    <br>Severe droughts in the Southern Plains in 1930 caused dust to blowfrom Texas to Nebraska. It was known as the "Dust Bowl". The Dust Bowl killed people, crops and livestock, leaving destruction in its wake. People were forced to migrate from the Plains to cities to find work and food.
-    <br>Bank runs forced banks to close in the early 1930's. And you can't get your money to pay bills, eat, pay taxes, etc if you can't get your money from the bank. People began to liquidate their funds they had in the bank before their banks closed too, shrinking the banks' customer base.
-    <br>By 1932 20% of all Americans were unemployed (~15 million). The government had to do something. On March 4, 1933 Franklin D. Roosevelt became president. FDR was known for his optimism, famously declaring "the only thing we have to fear is fear itself.”
-  </p>
-  </div>
-</div>
-</div>
-<div class="footer">HTML and CSS code written by Caleb W</div>
-</body>
-</head>
+        </style>
+        <body>
+            <div id='cssmenu'>
+                <ul>
+                    <li><a href='https://calebrwalk5.github.io/gd-website'>FRONT PAGE NEWS</a></li>
+                    <li><a href='currentevents.html'>CURRENT EVENTS</a></li>
+                    <li><a href='diary.html'>Diary</a></li>
+                    <li><a href='moviereview.html'>Grapes of Wrath Movie Review</a></li>
+                    <li class='active'><a href='aa.html'>Alphabet Agencies</a></li>
+                    <li><a href='https://github.com/calebrwalk5/gd-website'>GitHub Repository</a></li>
+                </ul>
+              </div>
+              <p></p>
+              <div class="header">
+                ROOSEVELT'S ALPHABET AGENCIES
+              </div>
+              <p></p>
+              <div class="wrapper">
+                  <div class="side">JOIN TODAY!</div>
+                  <div class="main"></div>
+                  <div></div>
+              </div>
+        </body>
+    </head>
 </html>
