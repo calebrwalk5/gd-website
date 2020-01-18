@@ -30,7 +30,7 @@
   line-height: 1;
 }
 #cssmenu ul {
-  background:#292929;
+  background:#00091A;
 }
 #cssmenu > ul > li {
   float: left;
@@ -93,5 +93,5 @@
 #cssmenu > ul > li.active > a:after,
 #cssmenu > ul > li:hover > a:after,
 #cssmenu > ul > li > a:hover:after {
-  background: linear-gradient(to right, red, orange);
+  background: linear-gradient(#F9293F, orange);
 }
