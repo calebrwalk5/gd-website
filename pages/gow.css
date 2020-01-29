@@ -93,5 +93,5 @@
 #cssmenu > ul > li.active > a:after,
 #cssmenu > ul > li:hover > a:after,
 #cssmenu > ul > li > a:hover:after {
-  background: lightgray;
+  background: gray;
 }
